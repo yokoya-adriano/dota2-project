@@ -1,0 +1,85 @@
+/* General
+    ============================================================== */
+
+/* Fonts */
+
+@font-face {
+    font-family: 'Mohave';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Mohave Regular'), local('OpenSans-Bold'), url(../font/Mohave-Regular.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Mohave';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Mohave Bold'), local('Mohave-Bold'), url(../font/Mohave-Bold.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Roboto Regular'), local('OpenSans-Bold'), url(../font/Roboto-Regular.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Roboto Bold'), local('Mohave-Bold'), url(../font/Roboto-Bold.woff2) format('woff2');
+}
+
+:root {
+    --primary-color: #000028 ;
+    --primary-color-rgb: 0, 0, 40;
+    --secondary-color: #ff2a6d;
+    --secondary-color-rgb: 255, 42, 109;
+    --terciary-color: #005678;
+    --terciary-color-rgb: 0, 86, 120;
+}
+
+html {
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'Roboto', sans-serif;
+    color: #0a1417;
+}
+
+/* Header
+    ============================================================== */
+
+
+
+
+/*  ==============================================================
+    Breakpoint xl <= 1200px
+    ============================================================== */
+
+@media (max-width: 1200px) {}
+
+
+/*  ==============================================================
+    Breakpoint xl <= 992 px
+    ============================================================== */
+
+@media (max-width: 992px) {}
+
+
+/*  ==============================================================
+    Breakpoint xl <= 768 px
+    ============================================================== */
+
+@media (max-width: 768px) {}
+
+
+/*  ==============================================================
+    Breakpoint xl <= 576 px
+    ============================================================== */
+
+@media (max-width: 576px) {}
